@@ -4,11 +4,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chrome DevTools & CSS Box Model</title>
+  <title>Chrome Dev Tools and CSS Box Model</title>
 </head>
 
 <body>
-  <!--Learning about Chrome Devtools and CSS Box Model-->
+  <style>
+    .subscribe-button {
+      /*rgb = red green blue*/
+      /*rgb(255, 255, 255) = white color*/
+      /*rgb(0, 0, 0) = black color*/
+      background-color: rgb(200, 0, 0);
+      color: white;
+      border: none;
+      /*How tall our element is*/
+      /* height: 36px; */
+      /*How wide our element is*/
+      /* width: 150px; */
+      border-radius: 2px;
+
+      /*change the cursor to a pointer*/
+      cursor: pointer;
+
+      /*Space outside an element*/
+      margin-right: 8px;
+
+      /*Transitioning between two different styles*/
+      transition: opacity, 0.1s;
+      margin-right: 8px;
+      margin-left: 20px;
+      padding: 10px 25px;
+      font-weight: bold;
+      vertical-align: top;
+    }
+
+
+    /*Hover*/
+    .subscribe-button:hover {
+
+      opacity: 0.8;
+    }
+
+    .subscribe-button:active {
+
+      opacity: 0.4;
+    }
+
+    .twitter-button {
+      background-color: rgb(0, 0, 200);
+      color: white;
+      border: none;
+
+      /*How tall our element is*/
+      height: 36px;
+      /*How wide our element is*/
+      width: 100px;
+      border-radius: 2px;
+      /*change the cursor to a pointer*/
+      cursor: pointer;
+    }
+
+    .join-button {
+      background-color: rgb(255, 255, 255);
+      border-color: rgb(41, 118, 211);
+      border-style: solid;
+      border-width: 1px;
+      color: blue;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 2px;
+      cursor: pointer;
+      /*transitions the background color and color smoothly over one second (1s)*/
+      transition: background-color 0.15s, color 0.15s;
+      vertical-align: top;
+    }
+
+
+    .join-button:hover {
+      background-color: rgb(41, 118, 211);
+      color: white;
+    }
+
+    .join-button:active {
+      opacity: 0.7;
+    }
+
+    .tweet-button {
+      background-color: rgb(2, 158, 255);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 70px;
+      border-radius: 17px;
+      font-weight: bold;
+      font-size: 15px;
+      margin-left: 8px;
+      cursor: pointer;
+      vertical-align: top;
+      /*horizontal position, 
+      vertical position, blur, color*/
+      transition: box-shadow, 1s;
+    }
+
+    .tweet-button:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+
+  <!--Class attributes: helps you label an element-->
+  <button class="subscribe-button">SUSBSRCIBE</button>
+  <button class="join-button">JOIN</button>
+  <button class="tweet-button">Tweet</button>
+
 </body>
 
 </html>
