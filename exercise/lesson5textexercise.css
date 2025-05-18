@@ -73,7 +73,7 @@ button {
   font-size: 17px;
 }
 
-span {
+span.learn-more {
   color: purple;
 }
 
@@ -81,6 +81,7 @@ span {
   text-align: center;
   font-family: Arial;
 }
+
 .new {
   color: red;
   font-size: 13px;
@@ -116,4 +117,71 @@ span {
   color: white;
   margin-top: 0;
   border-radius: 20px;
+}
+
+.first-price {
+  font-size: 30px;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+.usd {
+  font-family: Arial;
+  font-size: 17px;
+  color: grey;
+}
+
+.green-price {
+  font-family: Arial;
+  font-size: 16px;
+  color: green;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.last-line {
+  margin-top: 4px;
+}
+
+.after-hours {
+  font-family: Arial;
+  font-size: 17px;
+  color: grey;
+}
+
+.red-price {
+  font-family: Arial;
+  font-size: 16px;
+  color: red;
+}
+
+.span-one {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.span-two {
+  font-family: Arial;
+  font-size: 16px;
+  color: grey;
+}
+
+
+.web-dev-description {
+  font-family: Arial;
+  font-size: 17px;
+  width: 500px;
+  margin-top: -12px;
+}
+
+.chp {
+  font-family: Arial;
+  font-size: 17px;
+  color: rgb(122, 122, 190);
+}
+
+.here {
+    font-family: Arial;
+  font-size: 17px;
 }
