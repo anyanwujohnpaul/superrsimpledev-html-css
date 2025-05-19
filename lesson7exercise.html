@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise on Images and Text Boxes</title>
+  </head>
+  <body>
+    <style>
+      .cat-picture {
+        width: 200px;
+        border-radius: 15px;
+      }
+
+      .cat-picture1 {
+        width: 120px;
+        height: 110px;
+        object-position: center;
+        margin-left: 30px;
+      }
+
+      .cat-picture2 {
+        width: 120px;
+        height: 110px;
+        object-position: center;
+        border-radius: 80px;
+        margin-left: 30px;
+      }
+
+      .first-box {
+        padding: 10px 10px;
+        margin-top: 10px;
+        border-radius: 3px;
+        font-size: 15px;
+        border-style: groove;
+      }
+
+      .second-box {
+        width: 300px;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border-radius: 30px;
+        font-size: 15px;
+        margin-left: 10px;
+      }
+
+      .linkedin-email {
+        font-family: Arial;
+        margin-top: 10px;
+        font-size: 15px;
+      }
+
+      .third-box {
+        width: 350px;
+        padding: 5px 10px;
+        border-radius: 2px;
+        margin-top: 5px;
+      }
+
+      .linkedin-button1 {
+        background-color: rgb(10, 102, 194);
+        border: none;
+        color: white;
+        cursor: pointer;
+        height: 40px;
+        width: 380px;
+        border-radius: 40px;
+        margin-right: 8px;
+        font-size: 18px;
+        vertical-align: top;
+      }
+
+      .cat-picture3 {
+        width: 60px;
+        height: 60px;
+        border-radius: 200px;
+        margin-left: 30px;
+        vertical-align: top;
+      }
+
+      .image-and-textbox-exercise {
+        margin-top: 10px;
+        display: inline-flex;
+      }
+
+      .happening {
+        font-size: 20px;
+        margin-left: 10px;
+      }
+
+      .tweet-button {
+        background-color: rgb(2, 158, 255);
+        color: white;
+        border: none;
+        height: 35px;
+        border-radius: 70px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 13px;
+        margin-left: 130px;
+        padding: 7px 15px;
+        vertical-align: top;
+      }
+    </style>
+    <div class="img-exercise">
+      <img
+        class="cat-picture"
+        src="images/thumbnail-1.webp"
+        alt="Cat Picture"
+      />
+
+      <img
+        class="cat-picture1"
+        src="images/thumbnail-1.webp"
+        alt="Cat Picture 1"
+      />
+
+      <img
+        class="cat-picture2"
+        src="images/thumbnail-1.webp"
+        alt="Cat Picture 2"
+      />
+    </div>
+
+    <div class="textbox-exercise">
+      <input class="first-box" type="text" placeholder="Search" />
+
+      <input
+        class="second-box"
+        type="text"
+        placeholder="Search Google or type a URL"
+      />
+
+      <div class="linkedin-email">
+        <label for="email">Email</label> <br />
+        <input class="third-box" type="text" />
+        <p class="agree">
+          By clicking Agree & Join, you agree to the Privacy Policy
+        </p>
+        <button class="linkedin-button1">Agree and Join</button>
+      </div>
+    </div>
+
+    <div class="image-and-textbox-exercise">
+      <img
+        class="cat-picture3"
+        src="images/thumbnail-1.webp"
+        alt="Cat Picture 3"
+      />
+
+      <p class="happening">What's happening?</p>
+
+      <button class="tweet-button">Tweet</button>
+    </div>
+  </body>
+</html>
