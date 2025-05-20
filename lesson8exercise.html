@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise on Display Properties</title>
+  </head>
+  <body>
+    <style>
+      .name-box,
+      .email-box {
+        display: block;
+        margin: 10px;
+      }
+
+      .survey {
+        width: 200px;
+      }
+
+      .survey,
+      button {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .google-logo {
+        width: 150px;
+        margin-left: 100px;
+      }
+
+      .google-search-box {
+        width: 350px;
+        padding: 10px 20px;
+        margin-top: 5px;
+        border-radius: 30px;
+        font-size: 15px;
+        margin-left: 10px;
+        display: block;
+      }
+
+      .name-box {
+        display: inline;
+        padding: 5px 8px;
+        width: 100px;
+        height: 20px;
+        border-radius: 3px;
+        font-size: 15px;
+      }
+
+      .email-box {
+        padding: 5px 8px;
+        margin-left: 10px;
+        width: 245px;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 15px;
+      }
+
+      .sign-up {
+        background-color: rgb(35, 35, 207);
+        padding: 10px 105px;
+        color: white;
+        border-radius: 7px;
+        margin-left: 6px;
+        font-size: 17px;
+        border: none;
+      }
+
+      .request {
+        margin-bottom: 10px;
+        font-size: 25px;
+        margin-left: 10px;
+      }
+
+      .location-box,
+      .destination-box {
+        display: block;
+      }
+
+      .location-box {
+        padding: 5px 8px;
+        margin-left: 10px;
+        padding: 10px 26px;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-bottom: 0;
+      }
+
+      .destination-box {
+        padding: 5px 8px;
+        margin-left: 10px;
+        padding: 10px 26px;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+
+      .uber-button {
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px 8px;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 10px;
+      }
+
+      .schedule-later {
+        background-color: whitesmoke;
+        color: black;
+        border: none;
+        cursor: pointer;
+        padding: 10px 8px;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 10px;
+      }
+
+      .schedule-later, .uber-button {
+        margin-top: 15px;
+      }
+    </style>
+    <input class="name-box" type="text" placeholder="Name" />
+
+    <input class="email-box" type="text" placeholder="Email" />
+
+    <div>
+      <p class="survey">
+        Thanks for chatting with our customer support. Would you like to take
+        our quick survey?
+      </p>
+
+      <button>Yes</button>
+
+      <button>No</button>
+    </div>
+
+    <div>
+      <img
+        class="google-logo"
+        src="images/1657952217google-logo-png.webp"
+        alt="Google's Logo'"
+      />
+
+      <input
+        class="google-search-box"
+        type="text"
+        placeholder="Search Google or type a URL"
+      />
+    </div>
+
+    <div class="signup-section">
+      <input class="name-box" type="text" placeholder="First name" />
+
+      <input class="name-box" type="text" placeholder="Last name" />
+
+      <input class="email-box" type="text" placeholder="Email" />
+
+      <button class="sign-up">Sign up</button>
+    </div>
+
+    <div>
+      <p class="request">Request a ride now</p>
+      <input
+        class="location-box"
+        type="text"
+        placeholder="Enter pickup location"
+      />
+
+      <input
+        class="destination-box"
+        type="text"
+        placeholder="Enter destination"
+      />
+
+      <button class="uber-button">Request now</button>
+
+      <button class="schedule-later">Schedule for later</button>
+    </div>
+  </body>
+</html>

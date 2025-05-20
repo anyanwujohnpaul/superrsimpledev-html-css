@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Youtube.com Clone</title>
-  <link rel="stylesheet" href="lesson7.css">
-</head>
-<body>
- <style>
-.thumbnail {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;  
-  object-position: right;
-  border-width: 2px;
-  border-style: solid;
-  border-color: red;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube.com Clone</title>
+    <link rel="stylesheet" href="lesson7.css" />
+  </head>
+  <body>
+    <style>
+      .thumbnail {
+        width: 300px;
+        display: block;
+      }
 
-}
- </style>
-<!-- how to add image element -->
- <img src="images/thumbnail-1.webp" alt="">
+      .search-bar {
+      }
 
-<!-- how to create a textbox -->
- <input class="search-bar" type="text" placeholder="Search">
-</body>
+        
+    </style>
+    <!-- how to add image element -->
+    <img class="thumbnail"  src="images/thumbnail-1.webp" alt="" />
+
+    <!-- how to create a textbox -->
+    <input class="search-bar" type="text" placeholder="Search" />
+
+    <p class="video-title">Taking Tech and AI with Google CEO Sundar Pichai!</p>
+    <!-- Block element = takes up the entire line -->
+
+    <!-- Inline Block element = they only take up much space as they need to e.g img and button -->
+
+    <!-- Inline = they only appear within a line of text -->
+    <p class="video-author">Marques Brownlee</p>
+
+    <p class="video-stat">3.4M views &#183; 6 months ago</p>
+  </body>
 </html>
