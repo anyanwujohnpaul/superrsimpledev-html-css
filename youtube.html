@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Youtube.com Clone</title>
-    <link rel="stylesheet" href="lesson7.css" />
-  </head>
-  <body>
-    <style>
-      .thumbnail {
-        width: 300px;
-        display: block;
-      }
 
-      .search-bar {
-        display: block;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youtube.com Clone</title>
+  <!-- <link rel="stylesheet" href="lesson7.css" /> -->
+<!-- Add the roboto google fonts -->
+  <link rel="stylesheet" href="youtube.css" />
+</head>
 
-      .video-preview {
-        width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
-        /* 2:46:44 */
-      }
-    </style>
-    <!-- how to create a textbox -->
-   <input class="search-bar" type="text" placeholder="Search" />
-    <div class="video-preview">
-      <!-- how to add image element -->
-      <img class="thumbnail" src="images/thumbnail-1.webp" alt="" />
+<body>
+  <!-- Block element = takes up the entire line -->
 
-      <p class="video-title">
-        Taking Tech and AI with Google CEO Sundar Pichai!
-      </p>
-      <!-- Block element = takes up the entire line -->
+  <!-- Inline Block element = they only take up much space as they need to e.g img and button -->
 
-      <!-- Inline Block element = they only take up much space as they need to e.g img and button -->
+  <!-- Inline = they only appear within a line of text -->
+ 
+  <!-- how to create a textbox -->
+  <input class="search-bar" type="text" placeholder="Search" />
 
-      <!-- Inline = they only appear within a line of text -->
-      <p class="video-author">Marques Brownlee</p>
-
-      <p class="video-stat">3.4M views &#183; 6 months ago</p>
+  <div class="video-preview">
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="./channel-pictures/images/thumbnail-1.webp" alt="" />
     </div>
 
-    <div class="video-preview">
-<img class="thumbnail" src="images/thumbnail-2.webp" alt="" />
+    <div>
+      <div class="channel-picture">
+        <img class="profile-picture" src="./channel-pictures/images/channel-1.jpeg" alt="" />
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Taking Tech and AI with Google CEO Sundar Pichai!
+        </p>
 
-      <p class="video-title">
-        Try Not To Laugh
-      </p>
-      <!-- Block element = takes up the entire line -->
+        <p class="video-author">Marques Brownlee</p>
 
-      <!-- Inline Block element = they only take up much space as they need to e.g img and button -->
-
-      <!-- Inline = they only appear within a line of text -->
-      <p class="video-author">Markiplier</p>
-
-      <p class="video-stat">19M views &#183; 4 years ago</p>
+        <p class="video-stat">3.4M views &#183; 6 months ago</p>
+      </div>
     </div>
-  </body>
+
+  </div>
+
+  <div class="video-preview">
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="./channel-pictures/images/thumbnail-2.webp" alt="" />
+    </div>
+
+    <div>
+      <div class="channel-picture">
+        <img class="profile-picture" src="./channel-pictures/images/channel-2.jpeg" alt="">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Try Not To Laugh Challenge #9</p>
+
+        <p class="video-author">Markiplier</p>
+
+        <p class="video-stat">19M views &#183; 4 years ago</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
 </html>
