@@ -1,0 +1,34 @@
+body {
+  padding-bottom: 1000px;
+}
+
+.class {
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
+
+.class2 {
+   display: grid;
+   margin-top: 20px;
+  grid-template-columns: 100px 100px  200px 200px;
+}
+
+.class3 {
+   display: grid;
+   margin-top: 20px;
+  grid-template-columns: 100px 1fr;
+}
+
+.class4 {
+   display: grid;
+   margin-top: 20px;
+  grid-template-columns: 100px 1fr 1fr 2fr;
+}
+
+.class5 {
+   display: grid;
+   margin-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px; 
+}
