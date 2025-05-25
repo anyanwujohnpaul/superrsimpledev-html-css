@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise on Flexbox</title>
+    <link rel="stylesheet" href="lesson12exercise.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .container2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 2px solid gray;
+        align-items: center;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="background-color: blue; width: 200px">Flexbox 1</div>
+      <div style="background-color: red; width: 75px">Flexbox 2</div>
+    </div>
+
+    <div class="container">
+      <div style="background-color: blue; width: 50px">Item 1</div>
+      <div style="background-color: red; flex: 1">Item 2</div>
+      <div style="background-color: green; width: 75px">Item 3</div>
+    </div>
+
+    <div class="container1">
+      <div style="background-color: blue">Item 1</div>
+      <div style="background-color: red">Item 2</div>
+      <div style="background-color: green">Item 3</div>
+      <div style="background-color: green">Item 4</div>
+    </div>
+
+    <div class="container2">
+      <div style="background-color: blue">Flexbox 1</div>
+      <div style="background-color: red">Flexbox 2</div>
+    </div>
+
+    <div class="overall">
+      <div class="container4">
+      <div>  <p class="home">Home</p></div>
+        <div><button>14</button></div>
+      </div>
+
+      <div class="container4">
+        <div><p class="home">Notifications</p></div>
+        <div><button>13</button></div>
+      </div>
+
+      <div class="container4">
+       <div> <p class="home">Messages</p></div>
+        <div><button>25</button></div>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="left-section">Home</div>
+      <div class="middle-section">
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="right-section">
+        <button class="bootstrap-button">Download</button>
+      </div>
+    </div>
+
+    <div class="profile-section">
+      <div>
+        <img
+          class="picture"
+          src="./channel-pictures/images/channel-1.jpeg"
+          alt="Marquees Brown"
+        />
+      </div>
+      <div>
+        <p class="name">Rose</p>
+        <p class="animal">The Fish</p>
+        <p class="status">Popular</p>
+      </div>
+      <div><button class="follow">Follow</button></div>
+    </div>
+
+    <div class="profile-section">
+      <div>
+        <img
+          class="picture"
+          src="./channel-pictures/images/channel-1.jpeg"
+          alt="Marquees Brown"
+        />
+      </div>
+      <div>
+        <p class="name">Anna</p>
+        <p class="animal">Sleepy cat</p>
+        <p class="status">Popular</p>
+      </div>
+      <div><button class="follow">Follow</button></div>
+    </div>
+
+    <div class="profile-section">
+      <div>
+        <img
+          class="picture"
+          src="./channel-pictures/images/channel-1.jpeg"
+          alt="Marquees Brown"
+        />
+      </div>
+      <div>
+        <p class="name">Smart</p>
+        <p class="animal">Happy Bull Dog</p>
+        <p class="status">Popular</p>
+      </div>
+      <div><button class="follow">Follow</button></div>
+    </div>
+  </body>
+</html>
