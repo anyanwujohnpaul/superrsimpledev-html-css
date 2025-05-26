@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+}
+
+.first-div {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.second-div {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.container2 {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fest-div {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.nested-flexbox {
+  background-color: lightblue;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-div {
+  display: flex;
+  align-items: center;
+}
+
+.row2 {
+  background-color: black;
+  color: white;
+}
+
+/* .nested-flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.first-con {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  font-family: Roboto, Arial;
+  color: rgb(96, 96, 96);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.overall-container {
+  margin-top: 10px;
+}
+
+.time {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  color: rgb(192, 192, 192);
+  margin-left: -50px;
+}
+
+.profile-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+
+.biggest {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Roboto, Arial;
+}
+
+.hey {
+  color: rgb(192, 192, 192);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-family: Roboto, Arial;
+}
+
+.chewy {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto, Arial;
+}
+
+.message-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5px;
+  row-gap: 30px;
+}
+
+
+.message-info-master {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;  
+}
+
