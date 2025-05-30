@@ -6,13 +6,34 @@
   <title>CSS Positioning</title>
 </head>
 <body>
+  <style>
+    * {
+      font-size: 15px;
+    }
+  </style>
   <!-- left, top is how distant the element is from the browser-->
   <div style="background-color: black; color: white; position: fixed; top: 0; left: 0; right: 0; bottom: 100px; height: 50px;">header</div>
 
   <div style="color: white; background-color: green; position: fixed; left: 0; bottom: 0; top: 50px; width: 72px;">
 sidebar
+<div style="position: absolute; color: white; background-color: red;  top: 0; right: 0;">X</div>
   </div>
+
+  <div style="position: absolute; color: white; background-color: red;  top: 60px; right: 10px;">absolute</div>
+
+  <!-- For position: fixed; the element are placed in the browser window. -->
+
+     <!-- For position: absolute; the element are placed on the page. -->
+
+      <!-- For position -->
+
+      <!-- Z-index determines which element appears in front and behind.
+       
+       An element with higher index will appear in front of an element with lower index. -->
   <div style="background-color: aqua; height: 200px; width: 200px; position: static;">div 1</div>
-  <div style="background-color: lightcoral; height: 200px; width: 200px;">div 2</div>
+  <div style="background-color: lightcoral; height: 200px; width: 200px;
+  position: relative;">div 2
+<div style="position: absolute; color: white; background-color: black;  top: 60; right: 10px; bottom: 10px; right: 10px;">5:00</div>  
+</div>
 </body>
 </html>
